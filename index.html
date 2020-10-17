@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Air-Asia</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header"> <!--Как я понимаю у лэндинга хэдер это весь стартовый скрин, поэтому и меню и то что ниже в нем-->
+      <div class="header-top"> <!--Собственно верхняя часть хедера(Лого, меню, контакты)-->
+        <a href="#" class="logo">
+          <img src="#" alt="" class="logo__pic">
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="#" class="menu__link">Главная</a> <!--Якоря-->
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Услуги</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Отзывы</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="contacts">
+          <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+          <p class="contacts__schedule">График работы</p>
+        </address>
+      </div>
+      <div class="header-content"> <!--Основная часть хедера с названием и пикчей-->
+        <h1 class="header-content__title">Авторские туры по Азии</h1>
+        <p class="header-content__tagline">Открой для себя Азию</p>
+        <div class="button"> <!-- Кнопка поовторяется, поэтому отдельным блоком -->
+          <div class="button__conteiner"></div><!-- Насколько знаю, кнопки создаются с помощью css, а не соответсвующего html-тега, поэтому заглушка вместо тега баттон -->
+          <div class="button__text">Подробнее</div>
+        </div>
+      </div>
+    </header>
+    <div class="section-tours"> 
+      <div class="tours-title">
+        <div class="tours-title__text">Горящие туры</div>
+        <img src="" alt="" class="tours-title__img">
+      </div>
+      <div class="directions"> <!--Блок с направлениями для путешествия-->
+        <div class="directions__elm"> <!--Каждое отдельное направление-->
+          <img src="#" alt="Картинка с видами" class="directions__view"> <!--Картинка с пейзажем-->
+          <div class="direction__title">Таиланд</div>
+          <div class="terms"> <!--Условия проживания. Блок для длительности проживания и плашки "завтраки"-->
+            <img src="#" alt="Картинка календарика" class="terms__img">
+            <div class="terms__text">7-12 ночей</div>
+          </div>
+          <div class="terms"> 
+            <img src="#" alt="Картинка завтрака" class="terms__img">
+            <div class="terms__text">Завтраки</div>
+          </div>
+          <div class="directions__desc">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</div>
+          <div class="button"> 
+            <div class="button__conteiner"></div> <!--Та самая кнопка-->
+            <div class="button__text">Смотреть</div>
+          </div>
+        </div>
+        <div class="directions__elm"> 
+          <img src="#" alt="Картинка с видами" class="directions__view"> 
+          <div class="direction__title">Бали</div>
+          <div class="terms"> 
+            <img src="#" alt="Картинка календарика" class="terms__img">
+            <div class="terms__text">7-12 ночей</div>
+          </div>
+          <div class="terms"> 
+            <img src="#" alt="Картинка завтрака" class="terms__img">
+            <div class="terms__text">Завтраки</div>
+          </div>
+          <div class="directions__desc">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</div>
+          <div class="button"> 
+            <div class="button__conteiner"></div>
+            <div class="button__text">Смотреть</div>
+          </div>
+        </div>
+        <div class="directions__elm"> 
+          <img src="#" alt="Картинка с видами" class="directions__view"> 
+          <div class="direction__title">Индонезия</div>
+          <div class="terms"> 
+            <img src="#" alt="Картинка календарика" class="terms__img">
+            <div class="terms__text">7-12 ночей</div>
+          </div>
+          <div class="terms"> 
+            <img src="#" alt="Картинка завтрака" class="terms__img">
+            <div class="terms__text">Завтраки</div>
+          </div>
+          <div class="directions__desc">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</div>
+          <div class="button"> 
+            <div class="button__conteiner"></div>
+            <div class="button__text">Смотреть</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-news"> <!--Блок с новостями и акциями-->
+      <h2 class="section-news__title">Новости и акции</h2> <!--Заглавие -->
+      <div class="section-news__stocks"> <!--Блок с акциями-->
+        <div class="section-news__elm"> <!--Каждая акция отдельно-->
+          <img src="#" alt="Картинка с самолетом" class="section-news__img">
+          <div class="section-news__date">Декабрь 2019</div>
+          <h3 class="section-news__subtitle">Дешевые путевки на Новый Год!</h3>
+          <div class="section-news__desc">Проведи новый год в Тайланде</div>
+        </div>
+        <div class="section-news__elm">
+          <img src="#" alt="Картинка с серфингом" class="section-news__img">
+          <div class="section-news__date">Декабрь 2019</div>
+          <h3 class="section-news__subtitle">Акция для серфенгистов!</h3>
+          <div class="section-news__desc">В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов. Удачного пути!</div>
+        </div>
+      </div>
+      <div class="paginator">
+        <div class="paginar__display">Страница 1 из 7</div>
+        <a href="#" class="paginator__prev">
+          <img src="#" alt="Стрелка назад" class="paginator__prev-img"> <!--Стрелка назад-->
+        </a>
+        <ul class="paginator__list">
+          <li class="paginator__item">1</li>
+          <li class="paginator__item">2</li>
+          <li class="paginator__item">3</li>
+          <li class="paginator__item">4</li>
+          <li class="paginator__item">5</li>
+          <li class="paginator__item">6</li>
+          <li class="paginator__item">7</li>
+        </ul>
+        <a href="#" class="paginator__next">
+          <img src="#" alt="Стрелка вперед" class="paginator__next-img"> <!--Стрелка вперед-->
+        </a>
+      </div>
+    </div>
+    <div class="section-about">
+      <img src="#" alt="Картинка 1" class="section-about__img-one">
+      <div class="section-about__block"> <!--Выделил в отдельный блок, чтобы можно было одновременно позиционировать весь контент на картинке-->
+        <img src="#" alt="Картинка 2" class="section-about__img-two">
+        <h2 class="section-about__title">О нас</h2>
+        <p class="section-about__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. </p>
+        <div class="button"> 
+          <div class="button__conteiner"></div>
+          <div class="button__text">Подробнее</div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <a href="#" class="logo">
+        <img src="#" alt="" class="logo__pic">
+      </a>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="#" class="menu__link">Главная</a> <!--Якоря-->
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Услуги</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Отзывы</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="social">
+        <ul class="social__list">
+          <li class="social__item">
+            <img src="#" alt="Telegram" class="social__pic"> <!--Должны ли они быть ссылками? Или их интерактивность обозначается другими инструментами вроде JS?!-->
+          </li>
+          <li class="social__item">
+            <img src="#" alt="vk" class="social__pic">
+          </li>
+          <li class="social__item">
+            <img src="#" alt="fb" class="social__pic">
+          </li>
+          <li class="social__item">
+            <img src="#" alt="Inst" class="social__pic">
+          </li>
+        </ul>
+      </div>
+      <address class="contacts">
+        <p class="contacts__schedule">Бесплатный звонок по России</p>
+        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+      </address>
+    </footer>
+  </div>
+</body>
+</html>
