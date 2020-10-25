@@ -37,7 +37,7 @@ ul li {
 }
 
 .main-page-wrapper {
-  background: url("/air-asia/img/bgtop.png") center top no-repeat, url('/air-asia/img/bgbot.png') right -18px bottom 191px no-repeat;
+  background: url(/air-asia/img/bgtop.png) center top no-repeat, url(/air-asia/img/bgbot.png) right -18px bottom 191px no-repeat;
 }
 
 .content {
@@ -361,11 +361,11 @@ font-size: 16px;
   content: "";
   width: 490px;
   height: 505px;
-  background: url("img/gates.jpg") center center / cover no-repeat;
+  background: url(img/gates.jpg) center center / cover no-repeat;
 }
 
 .about__content {
-  background: url("/air-asia/img/mountains.jpg") center center / cover no-repeat;
+  background: url(/air-asia/img/mountains.jpg) center center / cover no-repeat;
   padding: 70px 202px 61px 81px;
   width: 783px;
   margin-left: -136px;
@@ -445,10 +445,10 @@ font-size: 16px;
 }
 
 .socials__item--icon--fb .socials__link {
-  background-image: url('../img/f.png');
+  background-image: url(/air-asia/img/f.png);
 }
 .socials__item--icon--fb .socials__link:hover {
-  background-image: url(../img/f2.png);
+  background-image: url(/air-asia/img/f2.png);
 }
 
 .socials__item--icon--insta .socials__link {
