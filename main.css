@@ -10,6 +10,7 @@ body {
   font-size: 14px;
   line-height: 1.36;
   color: #ffffff;
+  margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -37,7 +38,7 @@ ul li {
 }
 
 .main-page-wrapper {
-  background: url(/air-asia/img/bgtop.png) center top no-repeat, url(/air-asia/img/bgbot.png) right -18px bottom 191px no-repeat;
+  background: url(./img/bgtop.png) center top no-repeat, url(/air-asia/img/bgbot.png) right -18px bottom 191px no-repeat;
 }
 
 .content {
