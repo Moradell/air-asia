@@ -1,0 +1,35 @@
+.inner-footer {
+  margin-top: auto;
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-main-page {
+  height: 146px;
+}
+
+.footer-inner-conteiner {
+  padding: 40px 0;
+}
+
+.footer__col {
+  display: flex;
+  align-items: center;
+}
+
+.footer__col--align--right {
+  justify-content: flex-end;
+}
+
+.footer-container {
+  margin-top: auto;
+}
+
+.footer-container--content {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
