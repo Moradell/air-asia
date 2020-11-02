@@ -4,12 +4,16 @@
   background: #F2F2F2;
 }
 
+.services {
+  margin-bottom: 62px;
+}
+
 .services__item {
   margin-bottom: 50px;
 }
 
 .services__item:last-child {
-  margin-bottom: 62px;
+  margin-bottom: 0;
 }
 
 .service__img {

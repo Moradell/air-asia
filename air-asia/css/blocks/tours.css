@@ -3,17 +3,15 @@
 }
 
 .tours__title {
-  font-size: 36px;
-  font-weight: bold;
   margin-bottom: 50px;
+  display: flex;
+  align-items: center;
 }
 
 .tours__title-text {
   margin-right: 8px;
-}
-
-.tours__title-img {
-  vertical-align: middle;
+  font-size: 36px;
+  font-weight: bold;
 }
 
 .tours__list {
