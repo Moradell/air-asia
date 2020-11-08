@@ -24,3 +24,15 @@
   color: #fff;
   background: #F5170E;
 }
+
+.button--color--grey {
+  background: #8E8E8E;
+}
+
+.button--color--grey:hover {
+  background: #2B2B2B;
+}
+
+.welcome__button {
+  padding: 20px 55px;
+}

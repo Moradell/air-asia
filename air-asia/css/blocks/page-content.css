@@ -3,3 +3,7 @@
   color: #303030;
   padding: 100px 0 80px 0;
 }
+
+.page-content--bg--white {
+  background: #fff;
+}
