@@ -6,6 +6,7 @@
 .dropdown:hover .dropdown__menu {
   left: 30px;
   opacity: 1;
+  pointer-events: all;
 }
 
 
@@ -22,7 +23,9 @@
   margin-top: 5px;
   z-index: 5;
   opacity: 0;
-  transition: opacity .5s;
+  transition: opacity .3s;
+  pointer-events: none;
+  left: 30px;
 }
 
 .dropdown__menu:before {

@@ -1,32 +1,4 @@
- /* .welcome {
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  align-content: center;
-  overflow: auto;
-  background: url(./../../img/shades.png) top 290px center no-repeat;
-}
-
-.welcome__logo {
-  margin-bottom: 5px;
-}
-
-.welcome__tagline {
-  font-size: 18px;
-  margin-bottom: 30px;
-}
-
-.welcome__button {
-  padding: 20px 55px;
-}  */
-
-.welcome {
+ .welcome {
   display: flex;
   position: fixed;
   top: 0;
@@ -38,11 +10,17 @@
   background: url(./../../img/screen.jpg) center bottom / cover no-repeat;
 }
 
+/* .welcome__shades {
+  background: url(./../../img/shades.png) center bottom 35px no-repeat;
+} */
+
 .central {
   display: flex;
   flex-direction: column;
   align-items: center;
   animation: bounce 1s;
+  width: 575px;
+  background: url(./../../img/shades.png) center bottom 35px no-repeat;
 }
 
 .central_tagline {

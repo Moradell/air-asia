@@ -1,6 +1,8 @@
+.menu__list {
+  display: flex;
+}
 
 .menu__item {
-  display: inline-block;
   margin-right: 54px;
 }
 
@@ -16,6 +18,7 @@
   font-size: 14px;
   color: #ffffff;
   text-decoration: none;
+  transition:  color .1s linear;
 }
 
 .menu__link:hover {
